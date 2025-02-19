@@ -18,7 +18,7 @@ public class ShootBall : MonoBehaviour
     {
         GameObject dragon = GameObject.FindWithTag("BlueDragon");
         Vector3 spawnPosition = dragon.transform.position + dragon.transform.forward * 0.1f;
-        spawnPosition.y += 0.1f;
+        spawnPosition.y += 0.4f;
         Quaternion spawnRotation = dragon.transform.rotation;
         Debug.Log(spawnPosition);
   
